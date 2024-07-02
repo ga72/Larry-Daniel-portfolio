@@ -1,0 +1,227 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI',' Tahoma', 'Geneva', Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+header{
+
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.layer{
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.icon{
+    cursor: pointer;
+    margin-top: 25px;
+
+
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    
+}
+.fa-brands{
+    margin: 0 5px;
+    background-color: rgba(22, 20, 20, 0.8);
+  
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* .container .text{
+position: relative;
+
+}
+.container .text.first{
+
+
+}
+.text.sec::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color:transparent;
+border-left: 2px solid transparent;
+animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+    40% , 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+    
+} */
+.aboutMe{
+    padding: 130px;
+    margin: 50px;
+
+}
+
+.skill_progress{
+    background-color: #e9e7e7;
+    box-shadow:#e9e7e7;
+    width:100%;
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bg-gray{
+    background-color: #f7f7f7;
+
+} 
+i{
+    font-size: 23px;
+}
+.fas{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+}
+
+.fas:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.item1 , .item2 , .item3{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: inherit;
+    border-radius: inherit;
+    padding: 4px;
+    color: white;
+}
+
+
+.p95{
+    position: absolute;
+    top: 0;
+    right:70px;
+    color: white;
+}
+.p80{
+    position: absolute;
+    top: 0;
+    right:130px;
+    color: white;
+}
+.p90{
+    position: absolute;
+    top: 0;
+    right:100px;
+    color: white;
+}
+
+.btn1 , .btn2{
+margin-top: 20px;
+}
+.img-layout{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(16px);
+    transition: transform 1s , opacity 1s;
+    background-color: rgba(255, 255, 255, 0.93);
+    opacity: 0;
+}
+.item:hover .img-layout{
+    transform: translateY(0);
+    opacity: 1;
+
+}
+.item{
+    margin-top: 50px;
+}
+
+
+h6{
+    transform: translateY(-100%);
+    transition: transform 1s;
+}
+.item:hover h6{
+    transform: translateY(0);
+
+}
+
+.icons{
+    transform: translateY(100%);
+    transition: transform 1s;
+
+
+}
+.item:hover .icons{
+    transform: translateY(0);
+
+}
+.icons i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icons i:hover{
+    background-color: white;
+    color: black;
+}
+
+.w-30{
+width: 30%;
+}
+
+.projects li button
+{
+    color: black;
+    font-weight: 500;
+}
+
+.nav-pills .active{
+    background-color: transparent !important;
+    color:black !important ;
+    border-bottom: 5px solid;
+}
+
